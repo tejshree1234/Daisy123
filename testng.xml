@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listener>
+<listener class-name="com.testingshastra.util.TestListeners"></listener>
+</listener>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testingshastra.UItest.SignUppageIJmeet"/>
+      <class name="com.testingshastra.confg.BaseClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
