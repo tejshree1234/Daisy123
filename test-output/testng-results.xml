@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-10T21:38:48 IST" name="Default suite" finished-at="2021-11-10T21:39:34 IST" duration-ms="46548">
+    <groups>
+    </groups>
+    <test started-at="2021-11-10T21:38:48 IST" name="Default test" finished-at="2021-11-10T21:39:34 IST" duration-ms="46548">
+      <class name="com.testingshastra.uitests.homepagetests.HomepageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testingshastra.uitests.homepagetests.HomepageTests@6379eb]" started-at="2021-11-10T21:38:48 IST" name="setup" finished-at="2021-11-10T21:39:03 IST" duration-ms="15385" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateAllLinksOfHomePage()[pri:0, instance:com.testingshastra.uitests.homepagetests.HomepageTests@6379eb]" started-at="2021-11-10T21:39:03 IST" name="validateAllLinksOfHomePage" finished-at="2021-11-10T21:39:34 IST" duration-ms="30867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllLinksOfHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testingshastra.uitests.homepagetests.HomepageTests@6379eb]" started-at="2021-11-10T21:39:34 IST" name="tearDown" finished-at="2021-11-10T21:39:34 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testingshastra.uitests.homepagetests.HomepageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
